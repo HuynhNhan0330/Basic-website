@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phiếu đăng ký</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <h1>Phiếu đăng ký</h1>
+    <div class="container">
+      <form id="registration-form" onsubmit="submitForm()">
+        <table>
+          <tr>
+            <th>Họ tên:</th>
+            <td>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                style="width: 290px"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>Địa chỉ:</th>
+            <td>
+              <textarea
+                id="address"
+                name="address"
+                style="height: 100px; width: 300px"
+                required
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th>Email:</th>
+            <td><input type="email" id="email" name="email" required /></td>
+          </tr>
+          <tr>
+            <th>Điện thoại:</th>
+            <td><input type="tel" id="phone" name="phone" required /></td>
+          </tr>
+          <tr>
+            <th>Giới tính:</th>
+            <td>
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                required
+              />
+              <label for="male">Nam</label>
+
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required
+              />
+              <label for="female">Nữ</label>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Nghề nghiệp:</th>
+            <td>
+              <select id="occupation" name="occupation" required>
+                <option value="Bác sĩ">Bác sĩ</option>
+                <option value="Kĩ sư">Kĩ sư</option>
+                <option value="Giáo viên">Giáo viên</option>
+                <option value="Khác">Khác</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>Chọn sản phẩm:</th>
+            <td>
+              <select id="products" name="products" multiple required>
+                <option value="product1">Kem đánh răng</option>
+                <option value="product2">Dầu gội</option>
+                <option value="product3">Sửa tắm</option>
+                <option value="product4">Bột giặt</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>Dự đoán số người tham gia:</th>
+            <td>
+              <input
+                type="number"
+                id="participants"
+                name="participants"
+                style="width: 200px"
+                min="0"
+                max="1000"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: center">
+              <button type="submit">Đăng ký</button>
+              <button type="button" class="clear-button" onclick="clearForm()">
+                Làm lại
+              </button>
+            </th>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <script>
+      
+    </script>
+  </body>
+</html>

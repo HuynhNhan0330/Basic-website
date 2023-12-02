@@ -1,0 +1,47 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: url(images/co-vietnam.png) repeat-y center center fixed;
+}
+
+.tieude {
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 5px #0000;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.anhbentrai {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 3px;
+}
+
+.anhbenphai {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.headerChar{
+    float: left;
+}
+
+.chuthichhinh {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.controls {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}

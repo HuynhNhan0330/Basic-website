@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+.red-dotted-border {
+  border-radius: 15px;
+  border: 1.5px dotted #cc0000;
+  background-color: #ffcccba0;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+table {
+  border-radius: 10px;
+  border: 2px dotted #cc0000;
+  width: 50%;
+  margin: auto;
+  background: url(Images/login.jpg) no-repeat right 30px;
+  background-size: 270px 270px;
+}
+
+.btnLogin {
+  font-size: 16px;
+  width: 100px;
+  height: 36px;
+  border-radius: 14px;
+  font-weight: bold;
+  background-color: #f60001;
+  color: white;
+  border: 4px outset #deebec;
+  box-shadow: 0px 0px 7px rgba(137, 137, 137, 255);
+}
+
+.btnLogin:hover {
+  background-color: rgb(203, 0, 0);
+  cursor: pointer;
+}
+
+.btnLogin:active {
+  background-color: rgb(243, 0, 2);
+  border: 4px inset rgb(0, 202, 224);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 3.3vw;
+  }
+
+  table {
+    width: 90%;
+  }
+}
